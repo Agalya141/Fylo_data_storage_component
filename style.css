@@ -25,12 +25,12 @@ body{
     display:flex;
     flex-direction:row;
     background-color:var(--Blue-850);
-    width:20rem;
+    width:18rem;
     height:70%;
     padding:2.5rem;
     gap:2rem;
     flex-wrap:wrap;
-    border-radius:1rem 5rem 1rem 1rem;
+    border-radius:1rem 7rem 1rem 1rem;
     margin-top:1.5rem;
     position:relative;
 }
@@ -45,7 +45,7 @@ body{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    align-items:stretch;
+    align-items:flex-end;
     gap:1.5rem;
     position:relative;
 }
@@ -58,7 +58,7 @@ body{
     width:40rem;
     height:50%;
     background-color:var(--Blue-850);
-    border-radius:2rem;
+    border-radius:1rem;
     padding: 2rem;
     }
 
@@ -79,11 +79,24 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
+    width:9rem;
 
 }
 .number2{
     color:var(--Black);
-    
+    font-weight:700;
+    display:flex
+}
+.one{
+display:flex;
+}
+.eight{
+    font-size:1rem;
+}
+.five{
+display:flex;
+align-items:flex-start;
+font-size:1rem
 }
 .gb2{
     color:var(--Grayish-Blue)
@@ -97,9 +110,9 @@ body{
 .arrow{
     width:0;
     height:0;
-    left:0;
-    bottom:-0.5rem;
-    border-left:10px solid transparent;
+    right:0;
+    bottom:0.5rem;
+    border-right:-10px solid transparent;
     border-top:10px solid var(--White);
     background-color:transparent;
     position:absolute;
@@ -138,5 +151,15 @@ body{
     .fylo{
         display:flex;
         flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    body{
+        max-width:36rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:row;
+        flex-wrap:wrap;
     }
 }
