@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Fylo Data Storage Component</title>
         <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
     </head>
     <body>
         <main class="component">
+            <h1 class="sr-only">Fylo Data Storage</h1>
             <div class="fylo">
-                <div class="file">
+                <div class="card-header">
                     <div class="fylo-logo">
                         <img src="logo.svg" alt="logo" id="logo"></div>
                         <img src="icon-document.svg" alt="document" class="icon">
@@ -16,16 +18,16 @@
                         <img src="icon-upload.svg" alt="upload" class="icon">
                     </div>
 
-                <div class="left-storage"><p><span class="number2">815 </span><span class="gb2">GB LEFT</span></p>
+                <div class="storage-remaining"><p><span class="remaining-value"> 185 </span> <span class="remaining-label">GB LEFT</span></p>
                 <div class="arrow"></div></div>
-                <div class="space">
-                <div class="storage">
-                    <p class="text1">You've used <span class="number">815 </span><span class="gb"> GB</span> of your storage</p>
+                <div class="storage-card">
+                <div class="storage-details">
+                    <p class="storage-text">You've used <span class="used-value">815 </span><span class="used-unit"> GB</span> of your storage</p>
                     <div class="percentage-track">
                         <div class="percentage-fill"></div>
                     </div>
 
-                    <p class="progress"><span class="one">0gb</span><span class="two">1000 GB</span></p>
+                    <p class="progress-labels"><span class="progress-min">0gb</span><span class="progress-max">1000 GB</span></p>
                   
                     </div>
                 </div>
