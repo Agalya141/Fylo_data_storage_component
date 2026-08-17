@@ -21,7 +21,7 @@ body{
     margin:0;
     padding:0;
 }
-.file{
+.card-header{
     display:flex;
     flex-direction:row;
     background-color:var(--Blue-850);
@@ -54,7 +54,7 @@ body{
     padding:0.75rem;
     border-radius:0.50rem;
 }
-.storage{
+.storage-details{
     width:40rem;
     height:50%;
     background-color:var(--Blue-850);
@@ -62,14 +62,14 @@ body{
     padding: 2rem;
     }
 
-    .text1{
+    .storage-text{
         color:var(--Grayish-Blue)
     }
-    .gb,.number,.one,.two{
+    .used-unit,.used-value,.progress-min,.progress-max{
         color:var(--White);
     }
     
-.left-storage{
+.storage-remaining{
     position:absolute;
     top:-2rem;
     background-color:var(--White);
@@ -82,26 +82,16 @@ body{
     width:9rem;
 
 }
-.number2{
+.remaining-value{
     color:var(--Black);
     font-weight:700;
     display:flex
 }
-.one{
-display:flex;
-}
-.eight{
-    font-size:1rem;
-}
-.five{
-display:flex;
-align-items:flex-start;
-font-size:1rem
-}
-.gb2{
+
+.remaining-label{
     color:var(--Grayish-Blue)
 }
-.space{
+.storage-card{
     display:flex;
     flex-direction:row;
     align-items:center;
@@ -112,7 +102,8 @@ font-size:1rem
     height:0;
     right:0;
     bottom:0.5rem;
-    border-right:-10px solid transparent;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
     border-top:10px solid var(--White);
     background-color:transparent;
     position:absolute;
@@ -124,7 +115,7 @@ font-size:1rem
     position:relative;
     border-radius:4rem;
 }
-.progress{
+.progress-labels{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
@@ -147,7 +138,7 @@ font-size:1rem
     background-color:var(--White);
     border-radius:50%;
 }
-@media (max-widthß:37.5rem){
+@media (max-width:37.5rem){
     .fylo{
         display:flex;
         flex-direction:column;
@@ -162,7 +153,7 @@ font-size:1rem
         flex-direction:column;
         
     }
-    .left-storage{
+    .storage-remaining{
         display:flex;
         justify-content:center;
         align-items:flex-end;
