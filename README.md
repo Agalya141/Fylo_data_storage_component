@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design Screenshot](./Fylo data storage component screen shot.png) *(Note: Replace this with the actual path to your screenshot if it is different)*
+![Design Screenshot](./Fylo_data_storage_component_screenshot.png) 
 
 ### Links
 
