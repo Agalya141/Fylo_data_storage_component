@@ -144,7 +144,7 @@ bottom:-10px;
     justify-content:space-between;
 }
 .percentage-fill{
-    background: linear-gradient(to right, var(--Gradient));    border-radius:4rem;
+    background: linear-gradient(to right, var(--Gradient));    
     width:81.5%;
     height:100%;
     position:relative;
